@@ -1,0 +1,317 @@
+--Made by Voyami
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local AutoCastleRock = Instance.new("TextButton")
+local CMDX = Instance.new("TextButton")
+local CTRLClickTP = Instance.new("TextButton")
+local CameoGame2NOCD = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local Inspectrum2GUI = Instance.new("TextButton")
+local Inspectrum2LAG = Instance.new("TextButton")
+local Inspectrum2NOSTUN = Instance.new("TextButton")
+local Wister2xContribution = Instance.new("TextButton")
+local WisteriaGUI = Instance.new("TextButton")
+local AntiAFK = Instance.new("TextButton")
+local Title = Instance.new("Frame")
+local Voya = Instance.new("TextLabel")
+local Red = Instance.new("TextLabel")
+local Credits = Instance.new("Frame")
+local MadebyVoyami = Instance.new("TextLabel")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+--Properties:
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.0363062359, 0, 0.145098045, 0)
+main.Size = UDim2.new(0, 299, 0, 179)
+main.Visible = false
+main.Style = Enum.FrameStyle.RobloxRound
+main.Active = true
+main.Draggable = true
+
+AutoCastleRock.Name = "Auto Castle Rock"
+AutoCastleRock.Parent = main
+AutoCastleRock.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+AutoCastleRock.Position = UDim2.new(0.143147498, 0, 0.423215479, 0)
+AutoCastleRock.Size = UDim2.new(0, 51, 0, 27)
+AutoCastleRock.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+AutoCastleRock.Font = Enum.Font.SourceSans
+AutoCastleRock.Text = "Auto CR"
+AutoCastleRock.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoCastleRock.TextSize = 14.000
+AutoCastleRock.MouseButton1Down:connect(function()
+
+
+	loadstring("\108\111\99\97\108\32\80\108\97\121\101\114\115\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\10\108\111\99\97\108\32\97\110\110\111\121\105\110\103\100\111\111\114\32\61\32\87\111\114\107\115\112\97\99\101\46\79\98\106\101\99\116\115\46\68\111\111\114\115\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\68\111\111\114\34\41\10\97\110\110\111\121\105\110\103\100\111\111\114\58\68\101\115\116\114\111\121\40\41\10\108\111\99\97\108\32\98\97\105\116\32\61\32\87\111\114\107\115\112\97\99\101\46\79\98\106\101\99\116\115\46\83\112\97\119\110\101\100\58\71\101\116\67\104\105\108\100\114\101\110\40\41\91\49\93\10\98\97\105\116\58\68\101\115\116\114\111\121\40\41\10\10\10\10\108\111\99\97\108\32\109\116\32\61\32\103\101\116\114\97\119\109\101\116\97\116\97\98\108\101\40\103\97\109\101\41\10\108\111\99\97\108\32\111\108\100\32\61\32\109\116\46\95\95\110\97\109\101\99\97\108\108\10\108\111\99\97\108\32\112\114\111\116\101\99\116\32\61\32\110\101\119\99\99\108\111\115\117\114\101\32\111\114\32\112\114\111\116\101\99\116\95\102\117\110\99\116\105\111\110\10\10\105\102\32\110\111\116\32\112\114\111\116\101\99\116\32\116\104\101\110\10\9\110\111\116\105\102\121\40\34\73\110\99\111\109\112\97\116\105\98\108\101\32\69\120\112\108\111\105\116\32\87\97\114\110\105\110\103\34\44\32\34\89\111\117\114\32\101\120\112\108\111\105\116\32\100\111\101\115\32\110\111\116\32\115\117\112\112\111\114\116\32\112\114\111\116\101\99\116\105\111\110\32\97\103\97\105\110\115\116\32\115\116\97\99\107\32\116\114\97\99\101\32\101\114\114\111\114\115\44\32\114\101\115\117\108\116\105\110\103\32\116\111\32\102\97\108\108\98\97\99\107\32\102\117\110\99\116\105\111\110\34\41\10\9\112\114\111\116\101\99\116\32\61\32\102\117\110\99\116\105\111\110\40\102\41\32\114\101\116\117\114\110\32\102\32\101\110\100\10\101\110\100\10\10\115\101\116\114\101\97\100\111\110\108\121\40\109\116\44\32\102\97\108\115\101\41\10\109\116\46\95\95\110\97\109\101\99\97\108\108\32\61\32\112\114\111\116\101\99\116\40\102\117\110\99\116\105\111\110\40\115\101\108\102\44\32\46\46\46\41\10\9\108\111\99\97\108\32\109\101\116\104\111\100\32\61\32\103\101\116\110\97\109\101\99\97\108\108\109\101\116\104\111\100\40\41\10\9\105\102\32\109\101\116\104\111\100\32\61\61\32\34\75\105\99\107\34\32\116\104\101\110\10\9\9\119\97\105\116\40\57\101\57\41\10\9\9\114\101\116\117\114\110\10\9\101\110\100\10\9\114\101\116\117\114\110\32\111\108\100\40\115\101\108\102\44\32\46\46\46\41\10\101\110\100\41\10\10\10\103\101\116\103\101\110\118\40\41\46\87\97\108\107\83\112\101\101\100\86\97\108\117\101\32\61\32\53\48\59\32\45\45\115\101\116\32\121\111\117\114\32\100\101\115\105\114\101\100\32\119\97\108\107\115\112\101\101\100\32\104\101\114\101\10\108\111\99\97\108\32\80\108\97\121\101\114\32\61\32\103\97\109\101\58\115\101\114\118\105\99\101\39\80\108\97\121\101\114\115\39\46\76\111\99\97\108\80\108\97\121\101\114\59\10\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\58\71\101\116\80\114\111\112\101\114\116\121\67\104\97\110\103\101\100\83\105\103\110\97\108\39\87\97\108\107\83\112\101\101\100\39\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\61\32\103\101\116\103\101\110\118\40\41\46\87\97\108\107\83\112\101\101\100\86\97\108\117\101\59\10\101\110\100\41\10\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\46\87\97\108\107\83\112\101\101\100\32\61\32\103\101\116\103\101\110\118\40\41\46\87\97\108\107\83\112\101\101\100\86\97\108\117\101\59\10\10\10\10\119\97\105\116\40\53\41\10\119\104\105\108\101\32\116\114\117\101\32\100\111\10\32\32\32\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\79\98\106\101\99\116\115\46\77\97\112\46\80\97\114\116\46\67\70\114\97\109\101\10\32\32\32\32\119\97\105\116\40\49\53\41\10\32\32\32\32\71\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\67\70\114\97\109\101\46\110\101\119\40\45\53\56\46\53\53\53\57\57\50\49\44\32\45\49\51\55\46\56\48\51\54\56\44\32\50\48\46\48\55\48\49\49\52\49\44\32\48\46\57\57\56\49\51\52\57\49\49\44\32\50\46\49\48\48\49\52\48\51\51\101\45\48\56\44\32\45\48\46\48\54\49\48\52\54\57\54\53\52\44\32\45\50\46\51\56\52\51\54\52\53\51\101\45\48\56\44\32\49\44\32\45\52\46\53\56\50\57\56\49\49\49\101\45\48\56\44\32\48\46\48\54\49\48\52\54\57\54\53\52\44\32\52\46\55\49\57\57\57\49\53\49\101\45\48\56\44\32\48\46\57\57\56\49\51\52\57\49\49\41\10\32\32\32\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\58\77\111\118\101\84\111\40\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\79\98\106\101\99\116\115\46\77\97\112\46\84\101\108\101\112\111\114\116\101\114\46\80\111\115\105\116\105\111\110\41\10\32\32\32\32\119\97\105\116\40\55\41\10\32\32\32\32\119\104\105\108\101\32\116\114\117\101\32\100\111\10\32\32\32\32\32\32\32\32\108\111\99\97\108\32\115\32\61\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\79\98\106\101\99\116\115\46\83\112\97\119\110\101\100\58\71\101\116\67\104\105\108\100\114\101\110\40\41\10\32\32\32\32\32\32\32\32\105\102\32\115\32\97\110\100\32\116\121\112\101\40\115\41\32\61\61\32\34\116\97\98\108\101\34\32\97\110\100\32\115\91\49\93\32\116\104\101\110\10\32\32\32\32\32\32\32\32\32\32\32\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\115\91\49\93\46\66\111\120\46\67\70\114\97\109\101\10\32\32\32\32\32\32\32\32\32\32\32\32\119\97\105\116\40\48\46\49\41\10\32\32\32\32\32\32\32\32\32\32\32\32\108\111\99\97\108\32\100\101\116\101\99\116\111\114\32\61\32\115\91\49\93\46\66\111\120\46\67\108\105\99\107\10\32\32\32\32\32\32\32\32\32\32\32\32\102\105\114\101\99\108\105\99\107\100\101\116\101\99\116\111\114\40\100\101\116\101\99\116\111\114\41\10\32\32\32\32\32\32\32\32\32\32\32\32\119\97\105\116\40\48\46\49\41\10\32\32\32\32\32\32\32\32\101\108\115\101\10\32\32\32\32\32\32\32\32\32\32\32\32\112\114\105\110\116\40\34\73\84\83\32\71\69\84\32\66\82\69\65\75\69\68\34\41\10\32\32\32\32\32\32\32\32\32\32\32\32\98\114\101\97\107\10\32\32\32\32\32\32\32\32\101\110\100\10\32\32\32\32\101\110\100\10\32\32\32\32\112\114\105\110\116\40\34\101\110\100\101\100\32\108\111\108\32\115\101\114\118\101\114\32\108\111\111\116\101\100\34\41\10\32\32\32\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\46\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\46\67\70\114\97\109\101\32\61\32\103\97\109\101\46\87\111\114\107\115\112\97\99\101\46\79\98\106\101\99\116\115\46\77\97\112\46\69\110\100\84\101\108\101\112\111\114\116\101\114\46\67\70\114\97\109\101\10\32\32\32\32\119\97\105\116\40\56\41\10\101\110\100\10\32\32\32\32\10")()
+end)
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = main
+CMDX.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+CMDX.Position = UDim2.new(-0.0273816269, 0, 0.423215449, 0)
+CMDX.Size = UDim2.new(0, 51, 0, 27)
+CMDX.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.TextSize = 14.000
+CMDX.MouseButton1Down:connect(function()
+	--[[----------------------------------------------------------------
+|                ▄▀▄▄▄▄   ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄   ▄▀▀▄  ▄▀▄             |
+|               █ █    ▌ █  █ ▀  █ █ ▄▀   █ █    █   █             |
+|              ▐ █      ▐  █    █ ▐ █    █ ▐     ▀▄▀               |
+|                █        █    █    █    █      ▄▀ █               |
+|               ▄▀▄▄▄▄▀ ▄▀   ▄▀    ▄▀▄▄▄▄▀     █  ▄▀               |
+|              █     ▐  █    █    █     ▐    ▄▀  ▄▀                |
+|              ▐        ▐    ▐    ▐         █    ▐                 |
+|               ▐        ▐    ▐    ▐         █    ▐                |
+|------------------------------------------------------------------|
+|    Credits:    | Binds & Info:                                   |
+|    pigeon#1818 | U                         Open and close output |
+|        hz#4777 | RShift                          Fill suggestion |
+|     Curvn#2646 | ;                               Focus on CMDBar |
+| -------------- | Q                                Open and close |
+|                | LShift+Bksp                        Clear CMDbar |
+|                |                                                 |
+|                | .cmds                             List commands |
+----------------------------------------------------------------]]--
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+CTRLClickTP.Name = "CTRL+Click TP"
+CTRLClickTP.Parent = main
+CTRLClickTP.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+CTRLClickTP.Position = UDim2.new(0.753284037, 0, 0.259429663, 0)
+CTRLClickTP.Size = UDim2.new(0, 76, 0, 80)
+CTRLClickTP.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+CTRLClickTP.Font = Enum.Font.SourceSans
+CTRLClickTP.Text = "Click TP"
+CTRLClickTP.TextColor3 = Color3.fromRGB(0, 0, 0)
+CTRLClickTP.TextSize = 14.000
+CTRLClickTP.MouseButton1Down:connect(function()
+	local Plr = game:GetService("Players").LocalPlayer
+	local Mouse = Plr:GetMouse()
+
+	Mouse.Button1Down:connect(function()
+		if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+		if not Mouse.Target then return end
+		Plr.Character:MoveTo(Mouse.Hit.p)
+	end)
+end)
+
+CameoGame2NOCD.Name = "Cameo Game 2 NO CD"
+CameoGame2NOCD.Parent = main
+CameoGame2NOCD.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+CameoGame2NOCD.Position = UDim2.new(-0.0340705216, 0, 0.743893087, 0)
+CameoGame2NOCD.Size = UDim2.new(0, 127, 0, 27)
+CameoGame2NOCD.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+CameoGame2NOCD.Font = Enum.Font.SourceSans
+CameoGame2NOCD.Text = "Cameo Game 2 No CD"
+CameoGame2NOCD.TextColor3 = Color3.fromRGB(0, 0, 0)
+CameoGame2NOCD.TextSize = 14.000
+CameoGame2NOCD.MouseButton1Down:connect(function()
+	getgenv().toggle = true -- make it false to have cooldowns and true for no cooldowns
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mlartix/Cameo-Game/main/Cameo%20Game%202.lua", true))()
+end)
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+Close.BorderColor3 = Color3.fromRGB(209, 0, 0)
+Close.Position = UDim2.new(0.933060467, 0, -0.0336729102, 0)
+Close.Size = UDim2.new(0, 26, 0, 23)
+Close.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+Close.MouseButton1Down:connect(function()
+	main.Visible = false
+	openmain.Visible = true
+end)
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+InfiniteYield.Position = UDim2.new(-0.0307261292, 0, 0.259429693, 0)
+InfiniteYield.Size = UDim2.new(0, 102, 0, 27)
+InfiniteYield.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 14.000
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Inspectrum2GUI.Name = "Inspectrum 2 GUI"
+Inspectrum2GUI.Parent = main
+Inspectrum2GUI.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+Inspectrum2GUI.Position = UDim2.new(-0.0340705849, 0, 0.580107391, 0)
+Inspectrum2GUI.Size = UDim2.new(0, 102, 0, 27)
+Inspectrum2GUI.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Inspectrum2GUI.Font = Enum.Font.SourceSans
+Inspectrum2GUI.Text = "Inspectrum 2 GUI"
+Inspectrum2GUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inspectrum2GUI.TextSize = 14.000
+Inspectrum2GUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VoyaRed/VoyaX/main/inspectrum%20gui", true))()
+end)
+
+Inspectrum2LAG.Name = "Inspectrum 2 LAG"
+Inspectrum2LAG.Parent = main
+Inspectrum2LAG.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+Inspectrum2LAG.Position = UDim2.new(0.32705459, 0, 0.423215389, 0)
+Inspectrum2LAG.Size = UDim2.new(0, 121, 0, 27)
+Inspectrum2LAG.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Inspectrum2LAG.Font = Enum.Font.SourceSans
+Inspectrum2LAG.Text = "Inspectrum 2 Lag"
+Inspectrum2LAG.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inspectrum2LAG.TextSize = 14.000
+Inspectrum2LAG.MouseButton1Down:connect(function()
+	while true do
+		game:GetService("RunService").RenderStepped:Wait()
+		game.ReplicatedStorage.DropSilver:FireServer(1)
+	end
+end)
+
+Inspectrum2NOSTUN.Name = "Inspectrum 2 NOSTUN"
+Inspectrum2NOSTUN.Parent = main
+Inspectrum2NOSTUN.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+Inspectrum2NOSTUN.Position = UDim2.new(0.32705456, 0, 0.259429693, 0)
+Inspectrum2NOSTUN.Size = UDim2.new(0, 121, 0, 27)
+Inspectrum2NOSTUN.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Inspectrum2NOSTUN.Font = Enum.Font.SourceSans
+Inspectrum2NOSTUN.Text = "Inspectrum 2 No Stun"
+Inspectrum2NOSTUN.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inspectrum2NOSTUN.TextSize = 14.000
+Inspectrum2NOSTUN.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.ChildAdded:Connect(function(v)
+		game:GetService("RunService").RenderStepped:Wait()
+		if v.ClassName:match("Value") then
+			v:Destroy()
+		end
+	end)
+end)
+
+Wister2xContribution.Name = "Wister 2x Contribution"
+Wister2xContribution.Parent = main
+Wister2xContribution.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+Wister2xContribution.Position = UDim2.new(0.612380683, 0, 0.744439006, 0)
+Wister2xContribution.Size = UDim2.new(0, 115, 0, 27)
+Wister2xContribution.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Wister2xContribution.Font = Enum.Font.SourceSans
+Wister2xContribution.Text = "Wisteria 2x Contrib"
+Wister2xContribution.TextColor3 = Color3.fromRGB(0, 0, 0)
+Wister2xContribution.TextSize = 14.000
+Wister2xContribution.MouseButton1Down:connect(function()
+	Stepped = game:GetService('RunService').Stepped:Connect(function()
+		fireclickdetector(game:GetService("Workspace").Kagaya.ClickDetector)
+		firesignal(game:GetService("Players").LocalPlayer.PlayerGui.ShopGUI.Frame.Accept.MouseButton1Down)
+	end)
+end)
+
+WisteriaGUI.Name = "Wisteria GUI"
+WisteriaGUI.Parent = main
+WisteriaGUI.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+WisteriaGUI.Position = UDim2.new(0.330398977, 0, 0.585693836, 0)
+WisteriaGUI.Size = UDim2.new(0, 121, 0, 27)
+WisteriaGUI.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+WisteriaGUI.Font = Enum.Font.SourceSans
+WisteriaGUI.Text = "Wisteria GUI"
+WisteriaGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+WisteriaGUI.TextSize = 14.000
+WisteriaGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VoyaRed/VoyaX/main/wisteria%20gui", true))()
+end)
+
+AntiAFK.Name = "AntiAFK"
+AntiAFK.Parent = main
+AntiAFK.BackgroundColor3 = Color3.fromRGB(209, 0, 0)
+AntiAFK.Position = UDim2.new(0.410253763, 0, 0.743893087, 0)
+AntiAFK.Size = UDim2.new(0, 59, 0, 27)
+AntiAFK.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+AntiAFK.Font = Enum.Font.SourceSans
+AntiAFK.Text = "Anti-AFK"
+AntiAFK.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAFK.TextSize = 14.000
+AntiAFK.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TsVgzGf5", true))()
+end)
+
+Title.Name = "Title"
+Title.Parent = main
+Title.BackgroundColor3 = Color3.fromRGB(221, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(202, 0, 0)
+Title.Position = UDim2.new(-0.0138609875, 0, -0.0336728953, 0)
+Title.Size = UDim2.new(0, 81, 0, 29)
+Title.Style = Enum.FrameStyle.RobloxRound
+
+Voya.Name = "Voya"
+Voya.Parent = Title
+Voya.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Voya.BackgroundTransparency = 100.000
+Voya.Position = UDim2.new(-0.791952431, 0, -1.5719384, 0)
+Voya.Size = UDim2.new(0, 129, 0, 53)
+Voya.Font = Enum.Font.Roboto
+Voya.Text = "Voya"
+Voya.TextColor3 = Color3.fromRGB(255, 255, 255)
+Voya.TextSize = 20.000
+
+Red.Name = "Red"
+Red.Parent = Title
+Red.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Red.BackgroundTransparency = 1000.000
+Red.Position = UDim2.new(0.378081799, 0, -0.221519753, 0)
+Red.Size = UDim2.new(0, 52, 0, 18)
+Red.Font = Enum.Font.Roboto
+Red.Text = "Red"
+Red.TextColor3 = Color3.fromRGB(255, 0, 0)
+Red.TextSize = 20.000
+
+Credits.Name = "Credits"
+Credits.Parent = main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.Position = UDim2.new(0.287340343, 0, -0.0392594934, 0)
+Credits.Size = UDim2.new(0, 163, 0, 29)
+Credits.Style = Enum.FrameStyle.RobloxRound
+
+MadebyVoyami.Name = "Made by Voyami"
+MadebyVoyami.Parent = Credits
+MadebyVoyami.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadebyVoyami.BackgroundTransparency = 100.000
+MadebyVoyami.Position = UDim2.new(-0.192164481, 0, -1.35271573, 0)
+MadebyVoyami.Size = UDim2.new(0, 200, 0, 50)
+MadebyVoyami.Font = Enum.Font.SourceSans
+MadebyVoyami.Text = "Made by Voyami#0932"
+MadebyVoyami.TextColor3 = Color3.fromRGB(255, 255, 255)
+MadebyVoyami.TextSize = 20.000
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.Position = UDim2.new(0.770440221, 0, 0.518954277, 0)
+openmain.Size = UDim2.new(0, 123, 0, 37)
+openmain.Style = Enum.FrameStyle.RobloxRound
+openmain.Active = true
+openmain.Draggable = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.Size = UDim2.new(0, 105, 0, 24)
+open.Font = Enum.Font.SourceSans
+open.Text = "Open VoyaRed"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextSize = 14.000
+open.Visible = true
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+	openmain.Visible = false
+	main.Visible = true
+end)
