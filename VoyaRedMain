@@ -1162,6 +1162,6 @@ Tip.BackgroundTransparency = 100.000
 Tip.Position = UDim2.new(0.0144899804, 0, 0.39175868, 0)
 Tip.Size = UDim2.new(0, 71, 0, 28)
 Tip.Font = Enum.Font.SourceSans
-Tip.Text = "Auto Quest\\nPatched"
+Tip.Text = "Auto Quest Broke"
 Tip.TextColor3 = Color3.fromRGB(255, 255, 255)
 Tip.TextSize = 14.000
