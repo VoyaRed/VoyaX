@@ -87,6 +87,7 @@ local Credits_9 = Instance.new("Frame")
 local MadebyVoyami_9 = Instance.new("TextLabel")
 local Back_3 = Instance.new("TextButton")
 local ShindoHub = Instance.new("TextButton")
+local Tip = Instance.new("TextBox")
 --Properties:
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
@@ -1153,3 +1154,14 @@ end)
 
 library:Ready();
 end)
+
+Tip.Name = "Tip"
+Tip.Parent = HubsMenu
+Tip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tip.BackgroundTransparency = 100.000
+Tip.Position = UDim2.new(0.0144899804, 0, 0.39175868, 0)
+Tip.Size = UDim2.new(0, 71, 0, 28)
+Tip.Font = Enum.Font.SourceSans
+Tip.Text = "Auto Quest\\nPatched"
+Tip.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tip.TextSize = 14.000
