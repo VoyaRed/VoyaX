@@ -1161,6 +1161,7 @@ Tip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Tip.BackgroundTransparency = 100.000
 Tip.Position = UDim2.new(0.0144899804, 0, 0.39175868, 0)
 Tip.Size = UDim2.new(0, 71, 0, 28)
+Tip.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
 Tip.Font = Enum.Font.SourceSans
 Tip.Text = "Auto Quest Broken"
 Tip.TextColor3 = Color3.fromRGB(255, 255, 255)
